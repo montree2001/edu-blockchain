@@ -3,6 +3,7 @@
 require_once 'config.php';
 require_once 'Blockchain.php';
 
+
 checkPermission();
 
 $blockchain = new Blockchain($pdo);

@@ -2,11 +2,15 @@
 // config.php - การตั้งค่าระบบ
 session_start();
 
+/* แสดงผล Erorr */
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // การตั้งค่าฐานข้อมูล
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'ed-chain');
-define('DB_USER', 'ed-chain');
-define('DB_PASS', 'FHzxGRDLwpR2aXZY');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
 // การตั้งค่าระบบ
 define('SITE_URL', 'https://blockchain.krumontree.online');
