@@ -207,7 +207,7 @@ try {
                 <i class="bi bi-file-earmark-text me-2"></i>
                 ข้อมูลการศึกษา
             </a>
-            <a class="nav-link text-white" href="blockchain.php">
+            <a class="nav-link text-white" href="blockchain-page.php">
                 <i class="bi bi-diagram-3 me-2"></i>
                 บล็อกเชน
             </a>

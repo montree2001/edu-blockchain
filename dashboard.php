@@ -126,7 +126,7 @@ try {
                 <i class="bi bi-file-earmark-text me-2"></i>
                 ข้อมูลการศึกษา
             </a>
-            <a class="nav-link text-white" href="blockchain.php">
+            <a class="nav-link text-white" href="blockchain-page.php">
                 <i class="bi bi-diagram-3 me-2"></i>
                 บล็อกเชน
             </a>
@@ -406,7 +406,7 @@ try {
                                     <?php endforeach; ?>
                                 </div>
                                 <div class="text-center mt-3">
-                                    <a href="blockchain.php" class="btn btn-outline-primary btn-sm">
+                                    <a href="blockchain-page.php" class="btn btn-outline-primary btn-sm">
                                         ดูทั้งหมด <i class="bi bi-arrow-right ms-1"></i>
                                     </a>
                                 </div>
