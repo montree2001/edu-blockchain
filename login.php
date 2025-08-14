@@ -65,12 +65,14 @@ if (isset($_GET['message'])) {
     <title>เข้าสู่ระบบ - <?php echo SITE_NAME; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
+            font-family: 'Prompt', sans-serif;
         }
         .login-card {
             background: rgba(255, 255, 255, 0.95);
@@ -90,6 +92,21 @@ if (isset($_GET['message'])) {
             color: white;
             font-size: 2rem;
             margin: 0 auto 1rem auto;
+        }
+        .btn-primary-custom {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            color: #fff;
+        }
+        .btn-primary-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
         }
     </style>
 </head>
@@ -149,7 +166,7 @@ if (isset($_GET['message'])) {
                             </div>
 
                             <div class="d-grid gap-2 mb-3">
-                                <button type="submit" class="btn btn-primary btn-lg">
+                                <button type="submit" class="btn btn-primary-custom btn-lg">
                                     <i class="bi bi-box-arrow-in-right me-2"></i>
                                     เข้าสู่ระบบ
                                 </button>
